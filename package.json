@@ -5,7 +5,10 @@
     "type": "git",
     "url": "git+https://github.com/meinu-chan/OOP-Patterns.git"
   },
-  "author": "",
+  "scripts": {
+    "cp:factory": "ts-node CreatinalPatterns/Factory/index.ts"
+  },
+  "author": "Aleksey Lenchenko",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/meinu-chan/OOP-Patterns/issues"
