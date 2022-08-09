@@ -1,3 +1,3 @@
 # Creational patterns
 
-- Builder
+- Factory
