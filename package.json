@@ -1,0 +1,17 @@
+{
+  "name": "oop-patterns",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meinu-chan/OOP-Patterns.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meinu-chan/OOP-Patterns/issues"
+  },
+  "homepage": "https://github.com/meinu-chan/OOP-Patterns#readme",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
