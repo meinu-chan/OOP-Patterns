@@ -36,12 +36,12 @@ class ConcreteProduct2 implements Product {
   }
 }
 
-function clientCode(creator: Creator) {
+function FactoryCall(creator: Creator) {
   console.log(creator.someOperation());
 }
 
 console.log('App: Launched with the ConcreteCreator1.');
-clientCode(new ConcreteCreator1());
+FactoryCall(new ConcreteCreator1());
 
 console.log('App: Launched with the ConcreteCreator2.');
-clientCode(new ConcreteCreator2());
+FactoryCall(new ConcreteCreator2());
