@@ -6,7 +6,8 @@
     "url": "git+https://github.com/meinu-chan/OOP-Patterns.git"
   },
   "scripts": {
-    "cp:factory": "ts-node CreatinalPatterns/Factory/index.ts"
+    "cp:factory": "ts-node CreatinalPatterns/Factory/index.ts",
+    "cp:abstract-factory": "ts-node CreatinalPatterns/AbstractFactory/index.ts"
   },
   "author": "Aleksey Lenchenko",
   "license": "ISC",
