@@ -1,4 +1,8 @@
-class Prototype {
+interface CloneableItem {
+  clone(): this;
+}
+
+class Prototype implements CloneableItem {
   public primitive: any;
   public component: object;
   public circularReference: ComponentWithBackReference;
