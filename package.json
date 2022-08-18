@@ -10,7 +10,9 @@
     "cp:abstract-factory": "ts-node CreatinalPatterns/AbstractFactory/index.ts",
     "cp:builder": "ts-node CreatinalPatterns/Builder/index.ts",
     "cp:prototype": "ts-node CreatinalPatterns/Prototype/index.ts",
-    "cp:singleton": "ts-node CreatinalPatterns/Singleton/index.ts"
+    "cp:singleton": "ts-node CreatinalPatterns/Singleton/index.ts",
+
+    "sp:adapter": "ts-node StructuralPatterns/Adapter/index.ts"
   },
   "author": "Aleksey Lenchenko",
   "license": "ISC",
