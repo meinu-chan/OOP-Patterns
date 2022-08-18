@@ -3,3 +3,4 @@
 - Factory
 - Abstract Factory
 - Builder
+- Prototype
