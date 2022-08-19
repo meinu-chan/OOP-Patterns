@@ -1,3 +1,4 @@
 # Structural patterns
 
 - Adapter
+- Bridge
