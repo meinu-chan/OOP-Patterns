@@ -12,7 +12,8 @@
     "cp:prototype": "ts-node CreatinalPatterns/Prototype/index.ts",
     "cp:singleton": "ts-node CreatinalPatterns/Singleton/index.ts",
     "sp:adapter": "ts-node StructuralPatterns/Adapter/index.ts",
-    "sp:bridge": "ts-node StructuralPatterns/Bridge/index.ts"
+    "sp:bridge": "ts-node StructuralPatterns/Bridge/index.ts",
+    "sp:composite": "ts-node StructuralPatterns/Composite/index.ts"
   },
   "author": "Aleksey Lenchenko",
   "license": "ISC",

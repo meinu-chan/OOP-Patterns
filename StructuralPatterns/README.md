@@ -2,3 +2,4 @@
 
 - Adapter
 - Bridge
+- Composite
