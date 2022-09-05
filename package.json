@@ -15,7 +15,8 @@
     "sp:bridge": "ts-node StructuralPatterns/Bridge/index.ts",
     "sp:composite": "ts-node StructuralPatterns/Composite/index.ts",
     "sp:decorator": "ts-node StructuralPatterns/Decorator/index.ts",
-    "sp:facade": "ts-node StructuralPatterns/Facade/index.ts"
+    "sp:facade": "ts-node StructuralPatterns/Facade/index.ts",
+    "sp:flyweight": "ts-node StructuralPatterns/Flyweight/index.ts"
   },
   "author": "Aleksey Lenchenko",
   "license": "ISC",

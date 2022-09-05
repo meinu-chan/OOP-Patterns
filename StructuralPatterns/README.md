@@ -5,3 +5,4 @@
 - Composite
 - Decorator
 - Facade
+- Flyweight
