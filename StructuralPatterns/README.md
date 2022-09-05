@@ -3,3 +3,5 @@
 - Adapter
 - Bridge
 - Composite
+- Decorator
+- Facade
