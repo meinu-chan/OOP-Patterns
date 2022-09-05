@@ -1,47 +1,49 @@
-abstract class Creator {
-  public abstract factoryMethod(): Product;
+module FactoryModule {
+  abstract class Creator {
+    public abstract factoryMethod(): Product;
 
-  public someOperation() {
-    const product = this.factoryMethod();
+    public someOperation() {
+      const product = this.factoryMethod();
 
-    return `Creator: The same creator's code has just worked with ${product.operation()}`;
+      return `Creator: The same creator's code has just worked with ${product.operation()}`;
+    }
   }
-}
 
-class ConcreteCreator1 extends Creator {
-  public factoryMethod(): Product {
-    return new ConcreteProduct1();
+  class ConcreteCreator1 extends Creator {
+    public factoryMethod(): Product {
+      return new ConcreteProduct1();
+    }
   }
-}
 
-class ConcreteCreator2 extends Creator {
-  public factoryMethod(): Product {
-    return new ConcreteProduct2();
+  class ConcreteCreator2 extends Creator {
+    public factoryMethod(): Product {
+      return new ConcreteProduct2();
+    }
   }
-}
 
-interface Product {
-  operation(): string;
-}
-
-class ConcreteProduct1 implements Product {
-  public operation(): string {
-    return '{Result of the ConcreteProduct1}';
+  interface Product {
+    operation(): string;
   }
-}
 
-class ConcreteProduct2 implements Product {
-  public operation(): string {
-    return '{Result of the ConcreteProduct2}';
+  class ConcreteProduct1 implements Product {
+    public operation(): string {
+      return '{Result of the ConcreteProduct1}';
+    }
   }
+
+  class ConcreteProduct2 implements Product {
+    public operation(): string {
+      return '{Result of the ConcreteProduct2}';
+    }
+  }
+
+  function FactoryCall(creator: Creator) {
+    console.log(creator.someOperation());
+  }
+
+  console.log('App: Launched with the ConcreteCreator1.');
+  FactoryCall(new ConcreteCreator1());
+
+  console.log('App: Launched with the ConcreteCreator2.');
+  FactoryCall(new ConcreteCreator2());
 }
-
-function FactoryCall(creator: Creator) {
-  console.log(creator.someOperation());
-}
-
-console.log('App: Launched with the ConcreteCreator1.');
-FactoryCall(new ConcreteCreator1());
-
-console.log('App: Launched with the ConcreteCreator2.');
-FactoryCall(new ConcreteCreator2());
