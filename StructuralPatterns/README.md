@@ -6,3 +6,4 @@
 - Decorator
 - Facade
 - Flyweight
+- Proxy
