@@ -19,7 +19,8 @@
     "sp:flyweight": "ts-node StructuralPatterns/Flyweight/index.ts",
     "sp:proxy": "ts-node StructuralPatterns/Proxy/index.ts",
     "bp:chain-of-responsibility": "ts-node BehavioralPatterns/ChainOfResponsibility/index.ts",
-    "bp:command": "ts-node BehavioralPatterns/Command/index.ts"
+    "bp:command": "ts-node BehavioralPatterns/Command/index.ts",
+    "bp:iterator": "ts-node BehavioralPatterns/Iterator/index.ts"
   },
   "author": "Aleksey Lenchenko",
   "license": "ISC",
