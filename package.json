@@ -17,7 +17,8 @@
     "sp:decorator": "ts-node StructuralPatterns/Decorator/index.ts",
     "sp:facade": "ts-node StructuralPatterns/Facade/index.ts",
     "sp:flyweight": "ts-node StructuralPatterns/Flyweight/index.ts",
-    "sp:proxy": "ts-node StructuralPatterns/Proxy/index.ts"
+    "sp:proxy": "ts-node StructuralPatterns/Proxy/index.ts",
+    "bp:chain-of-responsibility": "ts-node BehavioralPatterns/ChainOfResponsibility/index.ts"
   },
   "author": "Aleksey Lenchenko",
   "license": "ISC",
