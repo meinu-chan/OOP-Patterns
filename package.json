@@ -20,7 +20,8 @@
     "sp:proxy": "ts-node StructuralPatterns/Proxy/index.ts",
     "bp:chain-of-responsibility": "ts-node BehavioralPatterns/ChainOfResponsibility/index.ts",
     "bp:command": "ts-node BehavioralPatterns/Command/index.ts",
-    "bp:iterator": "ts-node BehavioralPatterns/Iterator/index.ts"
+    "bp:iterator": "ts-node BehavioralPatterns/Iterator/index.ts",
+    "bp:mediator": "ts-node BehavioralPatterns/Mediator/index.ts"
   },
   "author": "Aleksey Lenchenko",
   "license": "ISC",
@@ -29,6 +30,7 @@
   },
   "homepage": "https://github.com/meinu-chan/OOP-Patterns#readme",
   "devDependencies": {
+    "ts-node": "^10.9.1",
     "typescript": "^4.7.4"
   }
 }
