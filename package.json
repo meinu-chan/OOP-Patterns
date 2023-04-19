@@ -21,7 +21,8 @@
     "bp:chain-of-responsibility": "ts-node BehavioralPatterns/ChainOfResponsibility/index.ts",
     "bp:command": "ts-node BehavioralPatterns/Command/index.ts",
     "bp:iterator": "ts-node BehavioralPatterns/Iterator/index.ts",
-    "bp:mediator": "ts-node BehavioralPatterns/Mediator/index.ts"
+    "bp:mediator": "ts-node BehavioralPatterns/Mediator/index.ts",
+    "bp:memento": "ts-node BehavioralPatterns/Memento/index.ts"
   },
   "author": "Aleksey Lenchenko",
   "license": "ISC",
